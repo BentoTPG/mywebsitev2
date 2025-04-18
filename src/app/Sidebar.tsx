@@ -25,7 +25,9 @@ const Sidebar = () => {
                       md:p-5 rounded-b-2xl md:rounded-2xl fixed md:flex-col 
                       md:gap-y-1 text-center justify-around z-30 transition-all duration-300  font-[family-name:var(--font-vt-323)] text-xl
                       ${isOpen ? 'h-auto flex-col' : 'h-20 flex'}`}>
-      <Image width={500} height={500} src="Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl h-auto w-auto ${isOpen ? 'h-30 w-auto mx-auto mt-4' : 'mr-3'}`}/>
+      <div className={` relative aspect-[1/1] md:h-auto md:w-full justify-center ${isOpen ? 'h-40 mx-auto' : 'h-full'}`}>
+        <Image fill src="Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl`}/>
+      </div>
       <div className="">
         <h2 className="text-3xl font-bold mt-1 whitespace-nowrap">Somchai P. Bento</h2>
         <h3 className="text-l font-light opacity-50 ">Your IT Support at home</h3>
