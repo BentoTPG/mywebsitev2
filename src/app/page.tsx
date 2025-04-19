@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-5xl font-bold whitespace-nowrap">My Name is </h1>
         <div className="flex gap-x-3 text-red-600 justify-center">
           <h1 className="text-5xl font-extrabold whitespace-nowrap mt-3">BentoTPG</h1>
-          <Image alt='logo' width={300} height={300} src="/logo_transparent.png" className="h-auto w-20 logo"/>
+          <Image alt='logo' width={300} height={300} src="logo_transparent.png" className="h-auto w-20 logo"/>
         </div>
         
         <h1 className="text-xl ">And welcome to my website</h1>
