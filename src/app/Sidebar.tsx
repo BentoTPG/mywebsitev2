@@ -23,10 +23,10 @@ const Sidebar = () => {
   return (
     <aside className={`w-full md:w-64 md:h-auto compo p-2 
                       md:p-5 rounded-b-2xl md:rounded-2xl fixed md:flex-col 
-                      md:gap-y-1 text-center justify-around z-30 transition-all duration-300  font-[family-name:var(--font-vt-323)] text-xl
+                      md:gap-y-1 text-center justify-between z-30 transition-all duration-300  font-[family-name:var(--font-vt-323)] text-xl
                       ${isOpen ? 'h-auto flex-col' : 'h-20 flex'}`}>
       <div className={` relative aspect-[1/1] md:h-auto md:w-full justify-center ${isOpen ? 'h-40 mx-auto' : 'h-full'}`}>
-        <Image fill src="Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl`}/>
+        <Image fill src="/Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl`}/>
       </div>
       <div className="">
         <h2 className="text-3xl font-bold mt-1 whitespace-nowrap">Somchai P. Bento</h2>
