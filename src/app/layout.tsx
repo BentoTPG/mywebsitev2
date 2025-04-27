@@ -3,6 +3,7 @@ import {  IBM_Plex_Mono, VT323,Ubuntu } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import { Toaster } from "react-hot-toast";
 
 const ibmplexMono = IBM_Plex_Mono({
   variable: "--font-ibm-plex-mono",
@@ -53,6 +54,7 @@ export default function RootLayout({
         <Navbar/>
         <main className="md:ml-67 flex-1 p-4 rounded-2xl pageandpoint">
           {children}
+          <Toaster/>
         </main>
       </body>
     </html>
