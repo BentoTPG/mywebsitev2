@@ -26,7 +26,7 @@ export const projects = [
     {
         name: "30/5 hell loop survival",
         date: "May 29,2024",
-        link: [{name: "Scratch",url: "https://github.com/BentoTPG/cataract-test"}],
+        link: [{name: "Scratch",url: "https://scratch.mit.edu/projects/1028884066"}],
         description: "Rogue-like survival game made using scratch.Created when block code training by SEAMOLEC",
         tags: ["Scratch"],
         image: "./Projectpics/hell_loop.png",
