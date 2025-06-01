@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20  gap-16 sm:p-20 font-[family-name:var(--font-ubuntu)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-20  gap-16 sm:p-20 font-[family-name:var(--font-ubuntu)]">
       <main className="flex flex-col gap-y-1 row-start-2 items-baseline">
         <h1 className="text-7xl font-bold">Hello!! ,</h1>
         <h1 className="text-5xl font-bold whitespace-nowrap">My Name is </h1>

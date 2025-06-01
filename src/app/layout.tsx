@@ -52,7 +52,7 @@ export default function RootLayout({
       >
         <Sidebar></Sidebar>
         <Navbar/>
-        <main className="md:ml-67 flex-1 p-4 rounded-2xl pageandpoint">
+        <main className="max-w-sceen-md md:ml-67 flex-1 p-4 rounded-2xl pageandpoint">
           {children}
           <Toaster/>
         </main>

@@ -19,7 +19,7 @@ const Navbar = () => {
       : "hover:bg-gray-700 dark:hover:bg-black"
     }`;
   return(
-    <nav className="transition-all duration-300 md:ml-67 h-16 md:w-full mx-auto max-w-[1012px] mt-5 compo shadow-md fixed bottom-0 md:top-0 z-50 flex justify-center md:justify-between items-center text-left  rounded-t-2xl font-[family-name:var(--font-vt-323)] ">
+    <nav className="transition-all duration-300 md:ml-67 h-16 md:w-screen mx-auto max-w-[1139px] mt-5 compo shadow-md fixed bottom-0 md:top-0 z-50 flex justify-center md:justify-between items-center text-left  rounded-t-2xl font-[family-name:var(--font-vt-323)] ">
       <div className="flex items-center space-x-4 ">
         <Link href="/" className={linkClass("/")}><SvgIcon path="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/>
         Home</Link>

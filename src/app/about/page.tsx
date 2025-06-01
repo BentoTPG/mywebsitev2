@@ -1,7 +1,8 @@
 export default function about() {
     return (
-      <div className="grid grid-rows-[20px_1fr_auto] justify-items-center min-h-screen pb-20 gap-16 sm:p-20 mt-20 md:mt-0 font-[family-name:var(--font-ibm-plex-mono)]">
-        <h1 className="text-[25px] md:text-6xl justify-center whitespace-nowrap font-bold">All about this website</h1>
+      <div className=" grid grid-rows-[20px_1fr_auto] justify-items-center md:mx-7 h-auto pb-20 gap-16 mt-20 font-[family-name:var(--font-ibm-plex-mono)]">
+        <h1 className="text-2xl md:text-6xl justify-center whitespace-nowrap font-bold">All about this website</h1>
+        
         <main className="leading-loose">
           <p className="indent-15 text-justify ">
             this website was made by me using Next js as a framework and tailwind as a css to learn about 

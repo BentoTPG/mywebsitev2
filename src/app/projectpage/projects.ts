@@ -24,6 +24,14 @@ export const projects = [
         image: "./Projectpics/Cataract.png",
     },
     {
+        name: "30/5 hell loop survival",
+        date: "May 29,2024",
+        link: [{name: "Scratch",url: "https://github.com/BentoTPG/cataract-test"}],
+        description: "Rogue-like survival game made using scratch.Created when block code training by SEAMOLEC",
+        tags: ["Scratch"],
+        image: "./Projectpics/hell_loop.png",
+    },
+    {
         name: "ESP8266-home-wifi-switch",
         date: "Feb 29, 2024",
         link: [{name: "Github",url: "https://github.com/BentoTPG/ESP8266-home-wifi-switch"}],
