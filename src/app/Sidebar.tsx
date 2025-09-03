@@ -40,9 +40,9 @@ const Sidebar = () => {
 
   return (
     <aside className={`w-full md:w-64 md:h-auto compo p-2 
-                      md:p-5 rounded-b-2xl md:rounded-2xl fixed md:flex-col 
+                      md:p-5 rounded-2xl fixed md:flex-col 
                       md:gap-y-1 text-center justify-between z-30 transition-all duration-300  font-[family-name:var(--font-vt-323)] text-xl
-                      ${isOpen ? 'h-auto flex-col' : 'h-20 flex'}`}>
+                      ${isOpen ? 'h-auto flex-col opacity-95' : 'h-20 flex'}`}>
       <div className={` relative aspect-[1/1] md:h-auto md:w-full justify-center ${isOpen ? 'h-40 mx-auto' : 'h-full'}`}>
         <Image fill src="Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl`}/>
       </div>
@@ -53,10 +53,10 @@ const Sidebar = () => {
       <hr className="border-t-2"/>
       <div className={` md:static  md:visible ${isOpen ? 'visible static' : 'invisible fixed'}`}>
         <ul className="ml-6 list-disc text-left font-bold ">
-          <li>18 years old (03/12/06)</li>
-          <li>thai🇹🇭,billingual</li>
+          <li>18 years old (03/12/2006)</li>
+          <li>Thai🇹🇭,Billingual</li>
           <li>TK126</li>
-          <li>CPE KU KPS (KU85)</li>
+          <li>KU85(KPS) E81 CPE19</li>
           <li>Microcontroller&circuit Enjoyer</li>
           <li>Nice to meet you guys!</li>
         </ul>

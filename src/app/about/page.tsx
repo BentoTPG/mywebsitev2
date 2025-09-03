@@ -5,15 +5,15 @@ export default function about() {
         
         <main className="leading-loose">
           <p className="indent-15 text-justify ">
-            this website was made by me using Next js as a framework and tailwind as a css to learn about 
+            This website was made by me(Bento) using Next js as a framework and tailwind as a css to learn about 
             working of it and to inform about myself to anyone who 
-            want to know me.I&#39;m still open to get your comment to develop website way better.Thank you
+            want to know me. I&#39;m still open to get your comment to develop website way better.
           </p>
           <h2 className="text-2xl font-bold mt-10">About me</h2>
           <p className="indent-15 text-justify">
-            My name is Somchai P. Bento(Not actual real name).I&#39;m from the east of thailand.I graduated high school from trattrakarnkhun School(TK126) and will become collegian 
-            in Computer Engineering at Kasetsart University Kamphaeng Saen Campus(KU85).I like to play with a circuit and microcontroller.Also fixing laptop and home appliance
-            like a hobby (if family member ask me to fix that).I don&#39;t want public reveal for now.But you can follow my instragram <a target="_blank" href="https://www.instagram.com/bento_tpg/" className="text-blue-700">here</a>.
+            My name is Somchai P. Bento(Not actual real name). I&#39;m from thailand. I'm graduated high school from trattrakarnkhun School(TK126) and currently studying 
+            in Computer Engineering at Kasetsart University Kamphaeng Saen Campus(KU85). I like to play with a circuit and microcontroller. Also fixing laptop and home appliance
+            like a hobby (if family member ask me to fix that). I don&#39;t want public reveal for now. But you can follow my instragram <a target="_blank" href="https://www.instagram.com/bento_tpg/" className="text-blue-700">here</a>.
           </p>
         
         </main>

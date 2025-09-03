@@ -18,7 +18,7 @@ export default function Projectpage() {
               <div className="flex gap-2 mt-2 items-center">
                 {project.tags.map((tag, idx) => (
                   <span key={idx} className="px-2 py-1 bg-gray-200 dark:bg-gray-800 text-sm rounded">
-                    {tag}
+                    {tag }
                   </span>
                 ))}
               </div>
