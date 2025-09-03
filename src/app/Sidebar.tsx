@@ -44,7 +44,8 @@ const Sidebar = () => {
                       md:gap-y-1 text-center justify-between z-30 transition-all duration-300  font-[family-name:var(--font-vt-323)] text-xl
                       ${isOpen ? 'h-auto flex-col opacity-95' : 'h-20 flex'}`}>
       <div className={` relative aspect-[1/1] md:h-auto md:w-full justify-center ${isOpen ? 'h-40 mx-auto' : 'h-full'}`}>
-        <Image fill src="Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white rounded-xl`}/>
+        <Image fill src="Dark_Profile.png" alt="Profile pic" className={`dark:border-4 dark:border-white hidden dark:block rounded-xl`}/>
+        <Image fill src="Profile.png" alt="Profile pic" className={` rounded-xl block dark:hidden`}/>
       </div>
       <div className="">
         <h2 className="text-3xl font-bold mt-1 whitespace-nowrap">Somchai P. Bento</h2>
